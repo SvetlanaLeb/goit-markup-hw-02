@@ -9,6 +9,9 @@ body {
   background-color: var(--primary-white-color);
   color: var(--primary-text-color);
   font-family: Roboto, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 16px;
   letter-spacing: 0.03em;
 }
 .logo,
@@ -50,7 +53,9 @@ ul {
 .site-nav a:hover,
 .site-nav a:focus,
 .auth-nav a:hover,
-.auth-nav a:focus {
+.auth-nav a:focus,
+.address-two:hover,
+.address-two:focus {
   color: var(--accent-color);
 }
 .site-nav .link.current {
@@ -88,6 +93,7 @@ button {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
+  cursor: pointer;
 }
 
 /* Features */
@@ -113,8 +119,6 @@ button {
 }
 .team-list p {
   color: var(--primary-text-color);
-  font-weight: normal;
-  font-size: 16px;
   line-height: 1.19;
 }
 
@@ -127,9 +131,6 @@ button {
 }
 .list-text {
   color: var(--primary-text-color);
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
   line-height: 1.87;
 }
 a.list-link {
@@ -140,7 +141,6 @@ a.list-link {
   background-color: var(--background-accent-color);
   font-family: inherit;
   font-weight: 500;
-  font-size: 16px;
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
@@ -153,10 +153,9 @@ a.list-link {
 /* Footer*/
 .address {
   color: rgba(255, 255, 255, 0.6);
-  font-style: normal;
-  font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
+  font-style: normal;
 }
 a.address {
   text-decoration: none;
